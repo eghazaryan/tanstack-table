@@ -1,0 +1,35 @@
+.root {
+  background: var(--mantine-color-gray-0);
+  width: 100vw;
+  height: 100vh;
+}
+
+.inner {
+  position: relative;
+}
+
+.count {
+  position: absolute;
+  right: var(--mantine-spacing-xl);
+  color: var(--mantine-color-gray-5);
+}
+
+.input {
+  margin-top: var(--mantine-spacing-sm);
+
+  &[data-focused] {
+    caret-color: transparent;
+  }
+}
+
+.label {
+  color: var(--mantine-color-gray-7);
+  font-size: var(--mantine-font-size-lg);
+  padding-inline: var(--mantine-spacing-sm);
+}
+
+.progress {
+  width: 30px;
+  height: 8px;
+  transform: rotate(270deg);
+}
